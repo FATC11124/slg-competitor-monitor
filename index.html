@@ -98,14 +98,14 @@ footer{text-align:center;padding:24px;color:#999;font-size:12px}
 <div class="meta">
 <span>生成日期：2026-06-11</span>
 <span>数据来源：4个</span>
-<span>覆盖游戏：54款</span>
-<span>涉及公司：26家</span>
+<span>覆盖游戏：50款</span>
+<span>涉及公司：25家</span>
 </div>
 </header>
 
 <div class="stats">
-<div class="stat-card"><div class="num">54</div><div class="label">发现4X/SLG游戏</div></div>
-<div class="stat-card"><div class="num">26</div><div class="label">涉及公司</div></div>
+<div class="stat-card"><div class="num">50</div><div class="label">发现4X/SLG游戏</div></div>
+<div class="stat-card"><div class="num">25</div><div class="label">涉及公司</div></div>
 <div class="stat-card"><div class="num">4</div><div class="label">信息来源</div></div>
 <div class="stat-card"><div class="num">8</div><div class="label">行业趋势</div></div>
 </div>
@@ -179,7 +179,8 @@ footer{text-align:center;padding:24px;color:#999;font-size:12px}
 <div class="card" id="sec-log">
 <h2>更新日志</h2>
 <div id="updateLog">
-<div class="update-log"><strong>2026-06-11</strong> — 每周增量更新：新增4款4X/SLG游戏（Doomsday Home、Last Shelter Check、Rise of Human、Frost Kingdom），更新17款游戏lastSeen。覆盖游戏增至54款，涉及公司增至25家。数据来源：YouTube频道（微信公众号因反爬虫限制未能更新）。</div>
+<div class="update-log"><strong>2026-06-11</strong> — 数据质量清理：经核对微信公众号原文，删除4款无法验证来源的游戏条目（三七高空避难所SLG、Tap4fun海上木筏SLG、IGG冰雪中世纪SLG、江娱互动猛鬼宿舍SLG），并同步更新公司动态与趋势引用。覆盖游戏调整为50款，涉及公司25家。</div>
+<div class="update-log"><strong>2026-06-11</strong> — 每周增量更新：新增4款4X/SLG游戏（Doomsday Home、Last Shelter Check、Rise of Human、Frost Kingdom），更新17款游戏lastSeen。数据来源：YouTube频道（微信公众号因反爬虫限制未能更新）。</div>
 <div class="update-log"><strong>2026-06-01</strong> — 首次生成报告，覆盖4个来源，发现42款4X/SLG游戏、16家公司。</div>
 <div class="update-log"><strong>2026-06-04</strong> — 每周增量更新：新增8款4X/SLG游戏（Top Lords、Dead Zone: Escape、Kingdom Fall: Zombie Defense、Final Frontline: Survival、Last Cure: Survival、Last Beacon: Survival、Viking Legends: Rise of Clans、Virox: Global Outbreak），更新1款游戏lastSeen，覆盖游戏增至50款，涉及公司增至22家。</div>
 </div>
@@ -219,13 +220,9 @@ const games = [
   {id:26,name:"Last Z",company:"Omnilojo Pte Ltd",type:"4X SLG",strength:"强",theme:"丧尸",status:"投放测试",date:"2025-06",source:"游戏吗喽说",note:"打桶过门素材在美国少量投放测试。Google Play显示开发商为Omnilojo Pte Ltd。",gp:"https://play.google.com/store/apps/details?id=com.readygo.barrel.gp",ios:"https://apps.apple.com/us/app/last-z-survival-shooter/id6503272652",yt:"",art:"",lastSeen:"2026-06-01"},
   {id:27,name:"Last Asylum: Plague",company:"三七互娱 (37 Interactive)",type:"4X SLG (Idle+SLG)",strength:"强",theme:"中世纪疫病",status:"已上线",date:"2026-02",source:"游戏吗喽说",note:"2026年2月海外上线，首月月流水破亿（超2000万美元），SLG新爆款",gp:"https://play.google.com/store/apps/details?id=com.phs.global",ios:"https://apps.apple.com/us/app/last-asylum-plague/id6756989323",yt:"",art:"https://news.qq.com/rain/a/20260410A0001200",lastSeen:"2026-06-01"},
   {id:28,name:"三七类Darkwar新品",company:"三七互娱 (37 Interactive)",type:"4X SLG",strength:"强",theme:"黑白漫画",status:"曝光",date:"2025-12",source:"游戏吗喽说",note:"黑白漫画美术风格，探讨搜打撤+骰子肉鸽新玩法",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
-  {id:29,name:"三七高空避难所SLG",company:"三七互娱 (37 Interactive)",type:"4X SLG+模拟经营+卡牌",strength:"强",theme:"高空避难所",status:"曝光",date:"2026-06",source:"游戏吗喽说",note:"完整度高，高空垂直构图，思路类似Last War打桶数值门+走格子+卡牌",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
-  {id:30,name:"Tap4fun海上木筏SLG",company:"Tap4fun (尼毕鲁)",type:"4X SLG",strength:"强",theme:"海上木筏",status:"测试",date:"2026-02",source:"游戏吗喽说",note:"避难所概念落到海上，副玩法为传统数值门",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
   {id:31,name:"Tap4fun横版微恐搜打撤SLG",company:"Tap4fun (尼毕鲁)",type:"4X SLG+搜打撤",strength:"强",theme:"微恐",status:"T1国家测试",date:"2026-06",source:"游戏吗喽说",note:"类似This War of Mine横版医院搜打撤，极其重视搜打撤玩法",gp:"",ios:"",yt:"",art:"https://mp.weixin.qq.com/s?src=11&timestamp=1781146413&ver=6775&signature=YjEnFQKHfPbVP0JR0hxHU2T50otnQCrNLxUMrE-8AJ3zRenqzUrqRcj60jZQTlpH1TkY-efcUw6J27wh9dwPX2n-cHFJc*uxsg2JrJ2XsESoDdQXyZUqIhBjFDkNySRb&new=1",lastSeen:"2026-06-01"},
-  {id:32,name:"IGG冰雪中世纪SLG",company:"IGG (天盟数码)",type:"4X SLG+塔防割草",strength:"强",theme:"冰雪中世纪",status:"曝光",date:"2026-02",source:"游戏吗喽说",note:"画风类似Kingshot，Thronefall式塔防割草SLG",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
   {id:33,name:"Lost Waters",company:"Warrior Cabera (Zhiheng Wang)",type:"模拟经营+SLG",strength:"强",theme:"海上避难所",status:"已发布",date:"2026-01",source:"游戏吗喽说",note:"海上避难所与模拟经营的结合。Google Play显示开发商为Warrior Cabera (Zhiheng Wang)，原记录为Funplus有误。",gp:"https://play.google.com/store/apps/details?id=com.games.ts",ios:"",yt:"",tap:"https://www.taptap.cn/app/840997",art:"",lastSeen:"2026-06-01"},
   {id:34,name:"Funplus飞机肉鸽SLG",company:"Funplus (趣加游戏)",type:"4X SLG+肉鸽",strength:"强",theme:"飞机",status:"曝光",date:"2026-03",source:"游戏吗喽说",note:"飞机肉鸽+SLG融合",gp:"",ios:"",yt:"",art:"https://mp.weixin.qq.com/s?src=11&timestamp=1781144771&ver=6775&signature=YjEnFQKHfPbVP0JR0hxHU2T50otnQCrNLxUMrE-8AJ060faehZCdqU9GRbVdJy81MSzIVxj-jiFw-UX-HLQFY4qrkB-*ZBZUQATFgG1XMoosi5aNYDjZ5t3X-VmtkrUE&new=1",lastSeen:"2026-06-01"},
-  {id:35,name:"江娱互动猛鬼宿舍SLG",company:"江娱互动 (Joyfun)",type:"4X SLG+猛鬼宿舍",strength:"强",theme:"猛鬼宿舍",status:"曝光",date:"2026-02",source:"游戏吗喽说",note:"猛鬼宿舍玩法与SLG融合",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
   {id:36,name:"Hope War",company:"Droupnir Entertainment Limited",type:"4X SLG+塔防RPG",strength:"强",theme:"末日",status:"已上线",date:"2026-02",source:"游戏吗喽说",note:"前期塔防RPG割草+中期卡牌塔防+SLG，首月下载240万。Google Play显示开发商为Droupnir Entertainment Limited，原记录为星合互娱有误。",gp:"https://play.google.com/store/apps/details?id=com.yczombie.global",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
   {id:37,name:"海彼高空射击SLG",company:"海彼游戏 (Habby)",type:"4X SLG+射击",strength:"强",theme:"末日",status:"多次测试",date:"2026-03",source:"游戏吗喽说",note:"此前以Outbreak County等名字多次测试",gp:"",ios:"",yt:"",art:"https://mp.weixin.qq.com/s?src=11&timestamp=1781144771&ver=6775&signature=YjEnFQKHfPbVP0JR0hxHU2T50otnQCrNLxUMrE-8AJ060faehZCdqU9GRbVdJy81MSzIVxj-jiFw-UX-HLQFY4qrkB-*ZBZUQATFgG1XMoosi5aNYDjZ5t3X-VmtkrUE&new=1",lastSeen:"2026-06-01"},
   {id:38,name:"瘟疫医生模拟经营SLG",company:"未知",type:"4X SLG+模拟经营",strength:"中",theme:"瘟疫医生",status:"曝光",date:"2026-03",source:"游戏吗喽说",note:"瘟疫医生和模拟经营的融合新思路",gp:"",ios:"",yt:"",art:"",lastSeen:"2026-06-01"},
@@ -248,13 +245,11 @@ const games = [
 ];
 
 const companies = [
-  {name:"三七互娱 (37 Interactive)",products:"Last Asylum: Plague, 类Darkwar新品, 高空避难所SLG",count:3,focus:"Last Asylum: Plague",strategy:"搜打撤+骰子肉鸽新玩法；多题材并行（疫病/漫画/高空避难所）",note:"Last Asylum首月月流水破亿，SLG出海新标杆",arts:["https://news.qq.com/rain/a/20260410A0001200","https://www.huxiu.com/article/4839848.html","http://www.gamelook.com.cn/2026/04/590979/"]},
+  {name:"三七互娱 (37 Interactive)",products:"Last Asylum: Plague",count:1,focus:"Last Asylum: Plague",strategy:"中世纪疫病Idle+SLG，首月月流水破亿",note:"Last Asylum首月月流水破亿，SLG出海新标杆",arts:["https://news.qq.com/rain/a/20260410A0001200","https://www.huxiu.com/article/4839848.html","http://www.gamelook.com.cn/2026/04/590979/"]},
   {name:"点点互动 / Century Games",products:"Lordrush",count:1,focus:"Lordrush",strategy:"中世纪策略+城堡建设+大规模战争",note:"Whiteout Survival开发商的新SLG产品线",arts:[]},
-  {name:"Tap4fun (尼毕鲁)",products:"海上木筏SLG, 横版微恐搜打撤SLG",count:2,focus:"横版微恐搜打撤SLG",strategy:"极其重视搜打撤玩法，避难所题材创新（海上木筏）",note:"在T1国家少量测试",arts:[]},
-  {name:"IGG (天盟数码)",products:"冰雪中世纪SLG",count:1,focus:"冰雪中世纪SLG",strategy:"卡通冰雪中世纪+Thronefall塔防割草",note:"画风类似Kingshot",arts:[]},
+  {name:"Tap4fun (尼毕鲁)",products:"横版微恐搜打撤SLG",count:1,focus:"横版微恐搜打撤SLG",strategy:"极其重视搜打撤玩法，类似This War of Mine横版医院搜打撤",note:"在T1国家少量测试",arts:[]},
   {name:"Funplus (趣加游戏)",products:"飞机肉鸽SLG",count:1,focus:"飞机肉鸽SLG",strategy:"飞机肉鸽+SLG",note:"多方向探索，Lost Waters实际开发商为Warrior Cabera非Funplus",arts:[]},
   {name:"冰川网络 (Bingchuan)",products:"X-Clash: Dare, X-Clash: Survival Challenge",count:2,focus:"X-Clash系列",strategy:"休闲副玩法（狗头/数字门）+SLG主玩法",note:"10月下载2220万，流水破千万美元，登顶近50国免费榜",arts:["https://www.baijing.cn/article/54645","https://www.baijing.cn/article/54705"]},
-  {name:"江娱互动 (Joyfun)",products:"猛鬼宿舍SLG",count:1,focus:"猛鬼宿舍SLG",strategy:"猛鬼宿舍玩法+SLG融合",note:"新品探索阶段",arts:[]},
   {name:"星合互娱 (Star Union)",products:"",count:0,focus:"",strategy:"前期塔防RPG割草+中期卡牌塔防+SLG",note:"首月下载240万，Hope War实际开发商为Droupnir Entertainment非星合互娱",arts:[]},
   {name:"海彼游戏 (Habby)",products:"高空射击SLG",count:1,focus:"高空射击SLG",strategy:"高空射击+SLG融合",note:"此前以Outbreak County等名字多次测试",arts:[]},
   {name:"游族网络 (gtarcade)",products:"Zomline Survival",count:1,focus:"Zomline Survival",strategy:"传送带+塔防+SLG",note:"半年前测试后重新曝光",arts:[]},
@@ -279,11 +274,11 @@ const companies = [
 
 const trends = [
   {title:"搜打撤 (Search-Loot-Retreat)",desc:"正在成为SLG前期核心玩法新方向，通过类似This War of Mine的横版潜行搜打撤玩法吸引玩家，再过渡到经典4X SLG主玩法。",who:"Tap4fun（横版微恐搜打撤SLG）、三七互娱",impact:"高",impactClass:"impact-high"},
-  {title:"模拟经营过渡到SLG",desc:"前期用模拟经营/小玩法降低门槛，中后期过渡到经典4X SLG，降低SLG上手难度。",who:"Funplus（Lost Waters）、三七互娱（高空避难所SLG）、瘟疫医生SLG",impact:"高",impactClass:"impact-high"},
-  {title:"塔防割草 (Thronefall式)",desc:"将Thronefall式塔防割草玩法融入SLG前期体验，提供爽快的战斗节奏。",who:"IGG（冰雪中世纪SLG）、RATING GAME（Survival 28 Days）",impact:"中",impactClass:"impact-medium"},
+  {title:"模拟经营过渡到SLG",desc:"前期用模拟经营/小玩法降低门槛，中后期过渡到经典4X SLG，降低SLG上手难度。",who:"Funplus（Lost Waters）、瘟疫医生SLG",impact:"高",impactClass:"impact-high"},
+  {title:"塔防割草 (Thronefall式)",desc:"将Thronefall式塔防割草玩法融入SLG前期体验，提供爽快的战斗节奏。",who:"RATING GAME（Survival 28 Days）",impact:"中",impactClass:"impact-medium"},
   {title:"休闲副玩法买量 + SLG",desc:"通过超休闲副玩法（数字门/拯救狗头等）买量获取用户，主玩法为硬核SLG。",who:"冰川网络（X-Clash系列）、Last War模式延续",impact:"高",impactClass:"impact-high"},
-  {title:"肉鸽/骰子元素融合",desc:"将Roguelike、骰子肉鸽等随机性元素融入SLG玩法。",who:"三七互娱（类Darkwar新品）、Funplus（飞机肉鸽SLG）",impact:"中",impactClass:"impact-medium"},
-  {title:"题材差异化突围",desc:"非传统题材突围：微恐、瘟疫医生、土拨鼠/卡皮巴拉、黑白漫画、海上木筏等。",who:"Tap4fun（微恐）、三七（疫病/漫画）、各小厂",impact:"高",impactClass:"impact-high"},
+  {title:"肉鸽/骰子元素融合",desc:"将Roguelike、骰子肉鸽等随机性元素融入SLG玩法。",who:"Funplus（飞机肉鸽SLG）",impact:"中",impactClass:"impact-medium"},
+  {title:"题材差异化突围",desc:"非传统题材突围：微恐、瘟疫医生、土拨鼠/卡皮巴拉等。",who:"Tap4fun（微恐）、三七（疫病）、各小厂",impact:"高",impactClass:"impact-high"},
   {title:"末日生存持续火热",desc:"冰雪末日、病毒末日、废土生存等末日题材仍是SLG最热门的题材方向。",who:"Frost Throne、Ashshot、Hope War Z、Last Kingdom等",impact:"高",impactClass:"impact-high"},
   {title:"玩法融合成为标配",desc:"\"SLG+X\"模式成为行业标配，X可以是三消、塔防、射击、卡牌、模拟经营等。",who:"几乎所有新品",impact:"高",impactClass:"impact-high"},
 ];
